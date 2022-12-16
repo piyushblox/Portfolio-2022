@@ -1,0 +1,192 @@
+body {
+    background-color: #fcfaf8;
+    margin: 0;
+    padding: 0;
+    color:white;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'circular';
+    src: url(fonts/CircularStd-Book.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'monument';
+    src: url(fonts/MonumentExtended-Ultrabold.otf);
+    font-style: normal;
+    font-weight: 900;
+}
+
+
+@font-face {
+    font-family: 'monument regular';
+    src: url(fonts/MonumentExtended-Regular.otf);
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'gustavo bold';
+    src: url(fonts/Gustavo-Bold.otf);
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'gustavo medium';
+    src: url(fonts/Gustavo-Medium.otf);
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'gustavo regular';
+    src: url(fonts/Gustavo-Regular.otf);
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'apoc';
+    src: url(fonts/ApocLCTrial-Revelations.otf);
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'zephyr';
+    src: url(fonts/Zephyr.otf);
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'helvetica';
+    src: url(fonts/HelveticaNowDisplay-Bold.ttf);
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'grotsek';
+    src: url(fonts/Grotsek.ttf);
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'ofform';
+    src: url(fonts/Ofform-Regular.otf);
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'aeonik';
+    src: url(fonts/AeonikProTRIAL-Regular.otf);
+    font-style: normal;
+    font-weight: 900;
+}
+
+
+@font-face {
+    font-family: 'neue';
+    src: url(fonts/NeueMontreal-Regular.otf);
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'gilroy';
+    src: url(fonts/Gilroy-Light.otf);
+    font-style: normal;
+    font-weight: 900;
+}
+
+
+
+a:link {
+    color: #8c8c8c;
+    text-decoration: none;
+    font-size: 11px;
+    font-family: 'circular', sans-serif;
+    letter-spacing: 0;
+    font-weight: 500;
+}
+
+a:visited {
+    color: white;
+}
+
+h1 {
+    font-family: 'Panchang', sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+    color: white;
+}
+
+h2 {
+    color: #4a4a4a;
+    text-decoration: none;
+    font-size: 11px;
+    font-family: 'circular', sans-serif;
+    letter-spacing: 0;
+    line-height: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #4a4a4a;
+    text-decoration: none;
+    font-size: 38ppx;
+    font-family: 'helvetica', sans-serif;
+    letter-spacing: 0;
+    font-weight: 900;
+}
+
+
+.sec-01 {
+    height: 200vh;
+    position: relative;
+    width: 100%;
+    background-color:black;
+    margin:0%;
+}
+
+.img01{
+    margin:20% 0 0 36%;
+    height: 80vh;
+    z-index: 2;
+    position: absolute;
+}
+
+.img02{
+    margin:-14% 0 0 42%;
+    height: 17vh;
+    z-index: 2;
+    position: absolute;
+}
+
+.nun-text{
+    position: absolute;
+    margin-top:27%;
+    font-size:202.5px;
+    line-height: 190px;
+    text-transform: uppercase;
+    left:0%;
+    color:transparent;
+    text-align: center;
+    z-index: 1;
+    -webkit-text-stroke: 1px #c4bbad;
+}
+
+.nun-text-two{
+    margin-top: 10%;
+    position: absolute;
+    font-size:202.5px;
+
+}
